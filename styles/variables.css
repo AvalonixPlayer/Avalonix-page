@@ -1,0 +1,14 @@
+:root {
+  --header-background-color: #111;
+  --background: linear-gradient(
+    135deg,
+    rgb(50, 15, 105),
+    rgb(20, 20, 20),
+    rgb(20, 20, 20)
+  );
+
+  --link-button-background-color: #111;
+  --link-button-border-color: #2e2e2e;
+
+  --section-seperators-color: #494949;
+}

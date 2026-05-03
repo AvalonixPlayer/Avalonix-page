@@ -1,0 +1,22 @@
+.link-button {
+  background-color: var(--link-button-background-color);
+  border: solid var(--link-button-border-color) 2px;
+
+  border-radius: 10px;
+
+  padding: 10px;
+
+  transition: all 0.1s ease-in-out;
+}
+
+.link-button:hover {
+  scale: 1.1;
+
+  filter: brightness(1.6);
+}
+
+.link-button:active {
+  scale: 1.15;
+
+  filter: brightness(2.3);
+}

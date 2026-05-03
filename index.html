@@ -1,0 +1,93 @@
+<html>
+  <title>Avalonix audio player</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles/styles.css" />
+</html>
+
+<body>
+  <header>
+    <div id="navigation">
+      <button onclick="window.location.href = '#welcome'" class="link-button">
+        <h2>Welcome</h2>
+      </button>
+      <button onclick="window.location.href = '#about'" class="link-button">
+        <h2>About</h2>
+      </button>
+      <button onclick="window.location.href = '#features'" class="link-button">
+        <h2>Features</h2>
+      </button>
+    </div>
+
+    <button
+      onclick="
+        window.location.href =
+          'https\://github.com/AvalonixPlayer/Avalonix/releases'
+      "
+      class="link-button"
+    >
+      <h2>Download</h2>
+    </button>
+  </header>
+
+  <section id="welcome">
+    <h1 id="label">Avalonix</h1>
+    <h2 id="slogan">Open, free, for users</h2>
+
+    <div id="fast-links-in-welcome">
+      <button
+        onclick="
+          window.location.href = 'https\://github.com/AvalonixPlayer/Avalonix'
+        "
+        class="link-button"
+      >
+        <h2>View on Github</h2>
+      </button>
+      <button
+        onclick="
+          window.location.href =
+            'https\://github.com/AvalonixPlayer/Avalonix/releases'
+        "
+        class="link-button"
+      >
+        <h2>Download</h2>
+      </button>
+    </div>
+  </section>
+
+  <section id="about">
+    <div id="about-content">
+      <h1 class="section-presentation-text">What is Avalonix?</h1>
+      <h1>
+        Avalonix is ​​a completely free, open-source audio player. We make it so
+        we'd want to use it ourselves.
+      </h1>
+    </div>
+  </section>
+
+  <section id="features">
+    <div id="features-content">
+      <h1 class="section-presentation-text">Features</h1>
+      <h1>
+        Avalonix is ​​being developed because other players lack some features.
+      </h1>
+      <div id="feutures-list-grid">
+        <div id="feutures-list">
+          <h1 class="feature">&#10004; Audio listening</h1>
+          <h1 class="feature">&#10004; Library updating</h1>
+          <h1 class="feature">&#10004; Parsing metadata</h1>
+          <h1 class="feature">&#10004; Playing by .cue files</h1>
+          <h1 class="feature">&#10004; Albums</h1>
+          <h1 class="feature">&#10004; Playback controll</h1>
+        </div>
+        <div id="feutures-list">
+          <h1 class="feature">&#10004; Tray</h1>
+          <h1 class="feature">&#10007; Performers</h1>
+          <h1 class="feature">&#10007; Settings editing</h1>
+          <h1 class="feature">&#10007; Customization</h1>
+          <h1 class="feature">&#10007; Metadata editing</h1>
+          <h1 class="feature">&#10007; Other services integration</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
